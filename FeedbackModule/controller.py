@@ -1,5 +1,5 @@
 from typing import Optional
-from FeedbackModule.servise import FeedbackService
+from FeedbackModule.serviсe import FeedbackService
 from fastapi import APIRouter, UploadFile, HTTPException
 from fastapi.responses import StreamingResponse, JSONResponse
 import FeedbackModule.model as model
